@@ -139,8 +139,13 @@
     </header>
     <main class="md:container md:mx-auto">
         <!-- featured -->
-    <section>
-
+    <section class="mt-24">
+      <h1 class="text-5xl mb-7 font-semibold text-center">Fetured Bikes In This Year</h1>
+      <div class="flex flex-col md:flex-row items-center gap-6 lg:gap-28">
+        <div><img src="images/others/feature-bike.png" alt=""></div>
+        <div><img src="images/others/feature-bike.png" alt=""></div>
+        <div><img src="images/others/feature-bike.png" alt=""></div>
+      </div>
     </section>
     <!-- news -->
     <section class="my-28">
@@ -244,7 +249,78 @@
           </div>
     </div>
     </section>
+    <!-- question -->
+    <section class="my-24">
+        <h1 class="text-5xl mb-7 font-semibold text-center">Frequently Asked Questions</h1>
+        <div class="hero ">
+            <div class="hero-content flex-col gap-28 lg:flex-row">
+              <img src="images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div class="">
+                <div class="collapse ">
+                    <input type="radio" name="my-accordion-1" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse ">
+                    <input type="radio" name="my-accordion-1" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse ">
+                    <input type="radio" name="my-accordion-1" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse ">
+                    <input type="radio" name="my-accordion-1" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </section>
     </main>
-    <footer></footer>
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <aside>
+        <ul class="flex gap-6">
+          <li><a href="">Download Now</a></li>
+          <li><a href="">License</a></li>
+        </ul>
+        <ul class="flex flex-wrap gap-6">
+          <li><a href="">about</a></li>
+          <li><a href="">features</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">helps</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+        
+        <p>© 2020 bike. All rights reserved</p>
+      </aside> 
+      <nav>
+        <h6 class="footer-title">Get the App</h6> 
+        <div class="grid grid-flow-col md:grid-flow-row gap-4">
+          <a><img class="w-32" src="images/others/android.png" alt=""></a>
+          <a><img class="w-32" src="images/others/android.png" alt=""></a>
+        </div>
+      </nav>
+    </footer>
 </body>
 </html>
